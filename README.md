@@ -16,4 +16,4 @@ Below we have initial results of our zero-shot model. The best result was in ask
 
 We observed three bottlenecks in our V0 approach. First, the keyword extractor seemed unhelpful. Low signal words like "Recent News" or "New" would muddy the query parameters and lead to lower quality results from the Reddit API. Second, it was typical that the relevant post identified was an incorrect but related event. This was particularly apparent when querying about recent news since our Reddit query looks at all posts from any time. There is potential leverage the post recency parameter based on the initial prompt. Finally, the quality of the comments returned were hit or miss. Sometimes they were informational and would provide relevant context but others were opinionated or simply irrelevant jokes. Filtering the specific subreddits we leverage or even leveraging text from links could be a worthwhile strategy to improving performance.
 
-![V0 Results](images/V0_results.png)
+![V0 Results](images/V0_Results.png)
